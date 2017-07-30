@@ -1,22 +1,33 @@
-#wrapper{
-	display: inline-block;
+body {
+	background-color: #832626;
 }
-button#clearbtn{
+.wrapper{
 	display: block;
-	margin-top:5px; 
-	margin-bottom:5px;
+	margin: auto;
+	width: 500px;
+}
+.buttons{
+	padding-left:32%;
+	padding-right:25%;
+}
+button{
+	display: inline-block;
+	margin-top:10px; 
+	margin-bottom:10px;
+	margin: 0 auto;
+	/*border-radius: 1px;*/
 }
 #whiteboard {
 	border:1px gray solid;
 	display: inline-block;
-}
-div.row{
-	padding: 0;
-	margin: 0;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	background-color: white;
 }
 div.sqr{
 	width:16px;
 	height:16px;
-	margin: 0;
 	display: inline-block;
+	border-radius: 3px;
 }
