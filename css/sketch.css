@@ -1,0 +1,22 @@
+#wrapper{
+	display: inline-block;
+}
+button#clearbtn{
+	display: block;
+	margin-top:5px; 
+	margin-bottom:5px;
+}
+#whiteboard {
+	border:1px gray solid;
+	display: inline-block;
+}
+div.row{
+	padding: 0;
+	margin: 0;
+}
+div.sqr{
+	width:16px;
+	height:16px;
+	margin: 0;
+	display: inline-block;
+}
